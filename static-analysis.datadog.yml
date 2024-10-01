@@ -1,0 +1,20 @@
+# This configuration file includes rulesets for static analysis to ensure production-grade best practices for Rust projects.
+# rust-style: Enforces Rust coding style guidelines.
+# code-quality: Ensures the overall quality of the codebase.
+# maintainability: Checks for code maintainability and readability.
+# error-handling: Validates proper error handling practices.
+# documentation: Ensures that the code is well-documented.
+# rust-security: Checks for security vulnerabilities in Rust code.
+# rust-performance: Ensures that the code is optimized for performance.
+# docker-best-practices: Enforces best practices for Dockerfiles.
+
+schema-version: v1
+rulesets:
+  - docker-best-practices
+  - rust-security
+  - rust-performance
+  - rust-style
+  - code-quality
+  - maintainability
+  - error-handling
+  - documentation
